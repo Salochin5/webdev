@@ -1,0 +1,40 @@
+/* Container */
+.container {
+    margin: auto;
+    padding: 20px 0;
+    background-color: antiquewhite;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+a {
+    cursor: pointer;
+}
+
+.socials a{
+    color: #222;
+    padding: 0 2px;
+    margin: auto;
+}
+a:hover {
+    color: aquamarine;
+}
+
+.dp img {
+    height: 200px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.socials,
+.info,
+.dp {
+    margin: auto;
+}
+
+.socials i{
+    height: 20px;
+}
